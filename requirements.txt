@@ -6,4 +6,4 @@ scikit-learn>=1.2.0
 gunicorn>=21.2.0
 python-dotenv
 statsmodels
-setuptools
+setuptools<70
