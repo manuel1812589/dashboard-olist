@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: dashboard-olist
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn src.app.dashboard_completo:server
+    plan: free
+    autoDeploy: false
